@@ -1,0 +1,15 @@
+enable-magisk-update = true
+
+parallel-jobs = 2
+cli-source = "revanced/revanced-cli"
+
+[YouTube]
+build-mode = "both"
+excluded-patches = "'Announcements'"
+included-patches = "'Change header'"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+
+[Music]
+build-mode = "both"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+arch = "arm64-v8a"
